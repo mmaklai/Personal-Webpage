@@ -1,0 +1,121 @@
+/* main.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #00509e;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header #nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+header #nav a:hover {
+    color: #ffdd57;
+}
+
+#banner {
+    background: #007BFF;
+    color: #fff;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+#banner h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#banner p {
+    font-size: 1.2rem;
+}
+
+#main .tiles article {
+    background: #fff;
+    margin: 2rem 0;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#main .tiles article .major h2 {
+    color: #00509e;
+}
+
+#main .tiles article .content p {
+    color: #666;
+}
+
+#main .tiles article .content a {
+    color: #00509e;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+
+#main .tiles article .content a:hover {
+    border-color: #00509e;
+}
+
+#contact .fields .field {
+    margin-bottom: 1rem;
+}
+
+#contact .fields .field input,
+#contact .fields .field textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact .actions .primary {
+    background: #00509e;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+#contact .actions .primary:hover {
+    background: #003d7e;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #00509e;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer .icons a {
+    color: #fff;
+    margin: 0 10px;
+}
+
+footer .icons a:hover {
+    color: #ffdd57;
+}

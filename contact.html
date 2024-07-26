@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Mohammed Maklai</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Contact Form Styles */
+        form {
+            display: flex;
+            flex-direction: column;
+            background: #e0f7ff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: 0 auto 2rem;
+        }
+
+        form label {
+            margin-bottom: 0.5rem;
+            color: #00509e;
+            font-weight: bold;
+        }
+
+        form input, form textarea {
+            margin-bottom: 1rem;
+            padding: 0.75rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+
+        form button {
+            padding: 0.75rem;
+            border: none;
+            border-radius: 4px;
+            background: #00509e;
+            color: #fff;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        form button:hover {
+            background: #003d7a;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mohammed S. Maklai</h1>
+        <p>Computer Engineering Student | Aspiring Software Engineer</p>
+        <nav>
+		<button onclick="history.back()">Go Back</button>
+        </nav>
+    </header>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="https://formspree.io/YOUREMAIL@example.com" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+        <p>Email: <a href="mailto:mohammedmaklai0@gmail.com">mohammedmaklai0@gmail.com</a></p>
+        <p>Phone: (908)-742-0473</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/mohammed-maklai/">Mohammed Maklai</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mohammed Maklai. All rights reserved.</p>
+    </footer>
+</body>
+</html>
